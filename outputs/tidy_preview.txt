@@ -1,0 +1,15 @@
+# A tibble: 10 × 6
+   time_period    operator journeys_million
+   <chr>          <chr>               <dbl>
+ 1 Apr 2011 to M… Avanti …             30.2
+ 2 Apr 2011 to M… C2c                  36.4
+ 3 Apr 2011 to M… Chilter…             19.7
+ 4 Apr 2011 to M… Cross C…             33.0
+ 5 Apr 2011 to M… East Mi…             23.9
+ 6 Apr 2011 to M… Govia T…            274. 
+ 7 Apr 2011 to M… Great W…             95.6
+ 8 Apr 2011 to M… Greater…            123. 
+ 9 Apr 2011 to M… London …             18.9
+10 Apr 2011 to M… London …            103. 
+# ℹ 3 more variables: year <int>,
+#   q_start_month <dbl>, date <date>
