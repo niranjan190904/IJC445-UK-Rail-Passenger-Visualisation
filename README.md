@@ -25,22 +25,6 @@ The project is fully reproducible using R.
 
 ---
 
-## 📂 Repository Structure
-
-├── data/
-│ └── table-1223-passenger-journeys-by-operator.xlsx
-│
-├── figures/
-│ ├── plot_1_masking_effect.png
-│ ├── plot_2_trends.png
-│ ├── plot_3_volume.png
-│ ├── plot_4_recovery.png
-│ └── final_dashboard_composite.png
-│
-├── scripts/
-│ └── Script.R
-│
-└── README.md
 
 ## 🛠 Software Requirements
 
