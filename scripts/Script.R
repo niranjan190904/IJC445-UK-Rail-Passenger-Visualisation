@@ -162,7 +162,7 @@ f2 <- ggplot(data_p2, aes(x=date, y=journeys_million)) +
     y="Journeys (m)", color=NULL
   ) +
   theme_minimal(base_size=11) + 
-  theme(legend.position="bottom", axis.text.x=element_text(angle=45, hjust=1))
+  theme(legend.position="bottom", axis.text.x=element_text(angle=45, hjust=1), plot.title = element_text(face = "bold"))
 
 # --- PLOT 3: Market Volume (Rolling Year) ---
 max_d <- max(tidy_journeys$date)
@@ -240,4 +240,5 @@ ggsave("figures/final_dashboard_composite.png", f_composite, width = 12, height 
 
 message("Processing Complete.")
 message(" - Individual plots saved to 'figures/'")
+
 message(" - Composite dashboard saved as 'figures/final_dashboard_composite.png'")
