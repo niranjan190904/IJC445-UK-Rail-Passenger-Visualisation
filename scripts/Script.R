@@ -1,6 +1,6 @@
 # ==============================================================================
 # IJC445 – Data Visualisation
-# UK Rail Passenger Journey Analysis (ORR Table 1223)
+# UK Rail Passenger Journey Visualisation (ORR Table 1223)
 # Author: Niranjan
 #
 # Description:
@@ -11,7 +11,7 @@
 #
 # Required packages:
 # - tidyverse (includes ggplot2, dplyr, tidyr, stringr, lubridate)
-# - readxl (for Excel ingestion)
+# - readxl (for Excel ingestion), readr
 # - janitor (for column cleaning)
 # - patchwork (for composite layouts)
 # - scales (for percentage formatting)
@@ -242,4 +242,5 @@ message("Processing Complete.")
 message(" - Individual plots saved to 'figures/'")
 
 message(" - Composite dashboard saved as 'figures/final_dashboard_composite.png'")
+
 
