@@ -1,5 +1,5 @@
 # ==============================================================================
-# IJC437 – Introduction to Data Science
+# IJC445 – Data Visualisation
 # UK Rail Passenger Journey Analysis (ORR Table 1223)
 # Author: Niranjan
 #
@@ -242,3 +242,4 @@ message("Processing Complete.")
 message(" - Individual plots saved to 'figures/'")
 
 message(" - Composite dashboard saved as 'figures/final_dashboard_composite.png'")
+
